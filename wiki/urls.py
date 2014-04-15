@@ -9,6 +9,6 @@ from wiki.current_datetime import current_datetime
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    url(r'^$', hello),
+    url('^$', hello),
     url(r'^time/$', current_datetime)
 )
