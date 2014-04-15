@@ -49,6 +49,10 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'wiki.urls'
 
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'templates'),
+)
+
 WSGI_APPLICATION = 'wiki.wsgi.application'
 
 
