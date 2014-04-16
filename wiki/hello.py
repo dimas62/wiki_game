@@ -4,7 +4,7 @@ from django.http import HttpResponse
 from django.template.loader import get_template
 from django.template import Context
 import urllib
-from lxml import html, etree 
+#from lxml import html, etree
 
 
 def hello(request):
